@@ -2,8 +2,7 @@
 body {
   font-size: 16px;
   color: #fff;
-  background-color: #61122f;
-
+  background-color: #c61e24;
   font-family: "Oxygen", sans-serif;
 }
 
@@ -32,12 +31,16 @@ body {
   text-transform: uppercase;
   font-weight: bold;
   text-shadow: 1px 1px 1px #222;
-  margin-top: 0;
+  margin-top: 20px;
   margin-bottom: 0;
   line-height: .75;
 }
+.navbar-brand a {
+  color: black;
+}
 .navbar-brand a:hover, .navbar-brand a:focus, .navbar-brand a {
   text-decoration-line: none;
+  color: black;
 }
 .navbar-brand p { /* Kosher cert */
   color: #000;
@@ -48,4 +51,90 @@ body {
 }
 .navbar-brand p span { /* Star-K */
   vertical-align: middle;
+}
+
+.navbar-nav a{ /* Menu */
+  margin-right: 1px;
+  font-weight: bond;
+  font-family: "Lora", serif;
+  color: #c61e24;
+  font-size: 1.1em;
+}
+.navbar-nav a:hover {
+  font-weight: bold;
+  color: darkred;
+  font-size: 1.2em;
+}
+
+
+#call-btn a { /* Phone number */
+  text-align: right;
+  padding-bottom: 0;
+  color: #c61e24;
+  font-weight: bold;
+  font-size: 1.1em;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+#call-btn a:hover{
+  font-size: 1.2em;
+}
+#call-btn div { /* We Deliver */
+  color: #c61e24;
+  text-align: right;
+  font-weight: bold;
+  font-size: 1.1em;
+  vertical-align: middle; 
+  margin-bottom: 25px;
+}
+
+#call-btn-2 a { /* Phone number */
+  text-align: right;
+  padding-bottom: 0;
+  color: #c61e24;
+  font-weight: bold;
+  font-size: 1.2em;
+  vertical-align: middle;
+}
+
+
+/* END HEADER */
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  #logo-img {
+    background: url('../images/restaurant-logo_medium.png') no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+  }
+  /* End Header */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) { /* Restaurant name */
+  .navbar-brand h1{
+    font-size: 5vw; /* 1vm = 1% of viewport width */
+  }
+  .navbar-toggler{
+    background-color: blue;
+  }
+}
+  /* End Header */
+
+
+
+.carousel{
+  background-color: #c61e24;
 }
