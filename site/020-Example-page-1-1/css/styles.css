@@ -82,6 +82,7 @@ body {
 #call-btn div { /* We Deliver */
   color: #c61e24;
   text-align: right;
+  font-family: italic;
   font-weight: bold;
   font-size: 1.1em;
   vertical-align: middle; 
@@ -133,8 +134,11 @@ body {
 }
   /* End Header */
 
-
-
 .carousel{
+  background-color: #c61e24;
+}
+
+#main-content{
+  color: whitesmoke;
   background-color: #c61e24;
 }
