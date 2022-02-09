@@ -1,0 +1,371 @@
+
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #61122f;
+  font-family: "Oxygen", sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+}
+
+#logo-img {
+  background: url("../images/restaurant-logo_large.png") no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 10px 15px 10px 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: "Lora", serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 20px;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a {
+  color: black;
+}
+.navbar-brand a:hover, .navbar-brand a:focus, .navbar-brand a {
+  text-decoration-line: none;
+  color: black;
+}
+.navbar-brand p { /* Kosher cert */
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+  font-weight: bold;
+}
+.navbar-brand p span { /* Star-K */
+  vertical-align: middle;
+}
+
+.navbar-nav a{ /* Menu */
+  margin-right: 1px;
+  font-weight: bond;
+  font-family: "Lora", serif;
+  color: #61122f;
+  font-size: 1.1em;
+}
+.navbar-nav a:hover {
+  font-weight: bold;
+  color: darkred;
+  font-size: 1.2em;
+}
+
+#call-btn a { /* Phone number */
+  text-align: right;
+  padding-bottom: 0;
+  color: #61122f;
+  font-weight: bold;
+  font-size: 1.1em;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+#call-btn a:hover{
+  font-size: 1.2em;
+}
+#call-btn div { /* We Deliver */
+  color: #61122f;
+  text-align: right;
+  font-family: italic;
+  font-weight: bold;
+  font-size: 1.1em;
+  vertical-align: middle; 
+  margin-bottom: 25px;
+}
+
+#call-btn-2 a { /* Phone number */
+  text-align: right;
+  padding-bottom: 0;
+  color: #61122f;
+  font-weight: bold;
+  font-size: 1.2em;
+  vertical-align: middle;
+}
+/* END HEADER */
+
+
+/* HOME PAGE */
+.carousel{
+  background-color: #61122f;
+}
+
+#main-content{
+  background-color: #61122f;
+  color: whitesmoke;
+}
+#menu-tile, #specials-tile, #map-tile{
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 1px solid #3F0C1F;
+  overflow: hidden;
+  box-shadow: 1px 1px 1px 1px black;
+}
+#menu-tile:hover{
+  box-shadow: 3px 3px 3px 3px #cccccc;
+}
+#specials-tile:hover{
+  box-shadow: 3px 3px 3px 3px #cccccc;
+}
+#map-tile:hover{
+  box-shadow: 3px 3px 3px 3px #cccccc;
+}
+#menu-tile{
+  background: url("../images/menu-tile.jpg") no-repeat;
+  background-position: center;
+}
+#specials-tile{
+  background: url("../images/specials-tile.jpg") no-repeat;
+  background-position: center;  
+}
+#menu-tile span, #specials-tile span, #map-tile span{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+/* END HOME PAGE */
+
+/* FOOTER */
+.panel-footer{
+  padding-bottom: 10px;
+  background-color: #222;
+  border-top: 0;
+}
+.panel-footer div.row{
+  margin-bottom: 35px;
+}
+#hours, #address {
+  line-height: 2;
+  color: whitesmoke;
+}
+#hours > span, #address > span {
+  font-size: 1.3em;
+}
+#address p{
+  color: #557c3e;
+  font-size: .8em;
+  line-height: 1.8;
+}
+#testimonials{
+  font-style: italic;
+  color: whitesmoke;
+}
+#testimonials p:nth-child(2){
+  margin-top: 25px;
+}
+/* END FOOTER */
+
+/* MENU CATEGORIES PAGE*/
+.category-tile{
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 15px;
+}
+.category-tile span{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+.category-tile:hover{
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+#menu-categories-tile + div {
+  margin-bottom: 50px;
+}
+/* END MENU CATEGORIES PAGE */
+
+/* SINGLE CATEGORY PAGE */
+
+.menu-item-tile{
+  margin-bottom: 25px;
+}
+.menu-item-tile hr{
+  width: 80%;
+}
+.menu-item-tile , .menu-item-price{
+  font-size: 1.1em;
+  text-align: right;
+  margin-top: -15px;
+  margin-right: -15px;
+}
+.menu-item-tile span{
+  font-size: .7em;
+}
+.menu-item-tile p{
+  font-size: .8em;
+}
+.menu-item-photo{
+  position: relative;
+  border:  2px solid #3F0C1F;
+  overflow: hidden;
+  padding: 0;
+  margin-right: -15px;
+  margin-left: auto;
+  margin-bottom: 20px;
+  max-width: 250px;
+}
+.menu-item-photo div{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 80px;
+  background-color: #557c3e;
+  text-align: center;
+}
+.menu-item-description{
+    padding-right: 30px;
+}
+h3.menu-item-tile{
+  margin: 0 0 10px;
+}
+.menu-item-details{
+  font-size: .9em;
+  font-style: italic;
+}
+
+/* END SINGLE CATEGORY PAGE */
+
+/* FORMULARIO DE CONTACTO */
+#mensaje, #nombre, #correo{
+  width: 300px;
+  margin-bottom: 10px;
+}
+/* END FORMULARIO DE CONTACTO */
+
+
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  #menu-tile, #specials-tile{
+    width: 360px;
+    margin: 0 auto 15px;
+  }
+
+  .navbar-nav a{ /* Menu */
+  margin-right: 1px;
+  font-weight: bond;
+  font-family: "Lora", serif;
+  color: #61122f;
+  font-size: 1.5em
+}
+#navbarSupportedContent{
+  margin-left: 130px;
+}
+}
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  #logo-img {
+    background: url('../images/restaurant-logo_medium.png') no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+  }
+  #navbarSupportedContent{
+  margin-left: 90px;
+  }
+  /* End Header */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* HEADER */
+  #call-btn-2{
+    margin-left: 240px;
+    font-size: 1.1em;
+    border: 2px solid #61122f;
+    text-align: center;
+    vertical-align: center;
+  }
+  /* END HEADER */
+  /* Single category page */
+  .menu-item-title{
+    text-align: center;
+    margin-top: 20px;
+  }
+  .menu-item-tile{
+  }
+  /* End single category page */
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) { /* Restaurant name */
+  /* Header */
+  .navbar-brand h1{
+    font-size: 5vw; /* 1vm = 1% of viewport width */
+  }
+  .navbar-toggler-icon{
+    vertical-align: center;
+  }
+  #call-btn-2{
+    font-size: 1.1em;
+    border: 2px solid #61122f;
+    text-align: center;
+  }
+  /* End Header */
+  /* Home page */
+  #menu-tile, #specials-tile{
+    width: 270px;
+    margin: 10px auto 10px;
+
+  }
+  /* End Home page */
+  /* Footer */
+  .panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .panel-footer section:nth-child(3){
+    margin-bottom: 0;
+  }
+  /* End Footer */
+
+  /* Single category page */
+  .menu-item-title{
+    text-align: center;
+  }
+  .menu-item-photo{
+    margin-right: auto;
+  }
+  .menu-item-tile{
+    text-align: center;
+  }
+  .menu-item-price{
+    text-align: center;
+  }
+  /* End single category page */
+}

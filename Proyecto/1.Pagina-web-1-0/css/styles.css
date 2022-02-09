@@ -1,0 +1,167 @@
+.navbar a{
+  margin-right: 50px;
+  margin-top: 10px;
+  font-size: 1.4em;
+  color: lightgray;
+}
+.navbar a:hover{
+  color: black;
+  background-color: whitesmoke;
+  font-family: !important;
+}
+.nav-item{
+  align-items: center;
+  text-align: center;
+}
+#menu-desplegable{
+  background-color: black;
+  border: 1px solid whitesmoke;
+}
+#menu-button{
+  background-color: #000000;
+  border: 2px solid white;
+}
+#barra{
+  height: 3px;
+  background-color: lightcoral;
+}
+/* END HEADER */
+/* HOME PAGE */
+
+#main-content{
+  background-color: black;
+  color: whitesmoke;
+}
+#main-content h2{
+  text-align: center;
+  color: lightcoral;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+#welcome-tiles{
+  margin-top: 30px;
+}
+#description-tiles {
+  font-size: 1.3em;
+
+}
+#img-tiles{
+  text-align: center;
+  margin-top: 60px;
+}
+.off-canva {
+  text-align: center;
+  margin-top: 10px;
+  }
+#offcanvasExample{
+  background-color: black;
+  color: whitesmoke;
+}
+
+#buy-nft{
+  background-color: lightcoral;
+  color: black;
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+#buy-nft:hover{
+  background-color: whitesmoke;
+  color: lightcoral;
+  font-weight: bold;
+}
+
+#colection-tile, #specials-tile, #map-tile{
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid black;
+  overflow: hidden; 
+}
+#colection-tile:hover{
+  border: 3px solid #cccccc;
+}
+#specials-tile:hover{
+  border: 3px solid #cccccc;
+}
+#map-tile:hover{
+  border: 3px solid #cccccc;
+}
+#colection-tile span, #specials-tile span, #map-tile span{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+#colection-tile{
+  background: url("../images/colections.png") no-repeat;
+  background-position: center;
+}
+#specials-tile{
+  background: url("../images/specials.png") no-repeat;
+  background-position: center;  
+}
+#about-us h1{
+  text-align: center;
+  font-size: 2.5em;
+  color: lightcoral;
+}
+#about-us p{
+  font-size: 1.3em;
+  margin-top: 15px;
+}
+
+/* ABOUT US - THE TEAM */
+#team-members{
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  position: relative;
+  overflow: hidden;
+}
+#nick-team-member{
+  margin-top: 10px;
+  color: lightcoral;
+}
+
+/* FOOTER */
+.panel-footer{
+  background-color: lightcoral;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/********** --------------- END HOME PAGE -------------- **********/
+
+
+
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  
+}
+
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) { /* Restaurant name */
+  
+}
